@@ -20,4 +20,4 @@ Try the components in live PlayGround in the project [collection](https://bit.de
 
 See the full tutorial - How to Publish React Native Components to Bit.
 
-**[How to Publish React Native Components to Bit]()**.
+**[How to Publish React Native Components to Bit](https://blog.bitsrc.io/how-to-publish-react-native-components-6deccfcf5a0d)**.
