@@ -1,0 +1,1 @@
+# React Native with Bit - Store demo application 
