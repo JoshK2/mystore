@@ -1,7 +1,7 @@
 # React Native with Bit - Store demo application 
 
 [![components](https://img.shields.io/badge/dynamic/json.svg?color=6e3991&label=components&query=payload.totalComponents&url=https%3A%2F%2Fapi.bit.dev%2Fscope%2Fjoshk%2Fmystore-app-components)](https://bit.dev/joshk/mystore-app-components)
-[![reddit](https://img.shields.io/reddit/subreddit-subscribers/bit_dev?label=Follow%20Bit&style=flat)](https://www.reddit.com/r/bit_dev/)
+[![reddit](https://badgen.now.sh/badge/chat/on%20Reddit/orange)](https://www.reddit.com/r/bit_dev/)
 
 A simple products list store build with React Native components and then shared them to a collection on [bit.dev](https://bit.dev/joshk/mystore-app-components).  
 Allow users to consume the entire products list or just a part of the app like the button for example, and using NPM and Yarn or using bit to consume and modify the component directly inside the project.
