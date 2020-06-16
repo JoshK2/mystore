@@ -37,6 +37,7 @@
       "compiler": "bit.envs/compilers/react-native@1.0.16"
     },
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "defaultScope": "joshk.mystore-app-components"
   }
 }
