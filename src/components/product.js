@@ -50,11 +50,35 @@ const Product = ({title, description, price, image, addToCart}) => {
 };
 
 Product.propTypes = {
+  /**
+   * product title
+   */
   title: PropTypes.string.isRequired,
+  /**
+   * product description
+   */
   description: PropTypes.string,
+  /**
+   * product price
+   */
   price: PropTypes.string.isRequired,
+  /**
+   * product image url
+   */
   image: PropTypes.string.isRequired,
+  /**
+   * addToCart will show a button inside the component
+   */
   addToCart: PropTypes.bool,
+};
+
+Product.defaultProps = {
+  title: 'product title',
+  description: 'product description',
+  price: '$100',
+  image:
+    'https://static.nike.com/a/images/f_auto/q_auto/t_PDP_864_v1/i1-9944e829-002c-4a6b-93ed-cc8801c7eb0c/air-vapormax-360-mens-shoe-b09bdB.jpg',
+  addToCart: () => Alert.alert('on press!'),
 };
 
 export {Product};

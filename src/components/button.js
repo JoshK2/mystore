@@ -29,7 +29,13 @@ const Button = ({title, onPress}) => {
 };
 
 Button.propTypes = {
+  /**
+   * button title
+   */
   title: PropTypes.string.isRequired,
+  /**
+   * on press function
+   */
   onPress: PropTypes.func.isRequired,
 };
 
